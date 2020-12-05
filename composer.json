@@ -1,0 +1,25 @@
+{
+    "name": "jc/arhan",
+    "description": "php framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "junchow",
+            "email": "junchow520@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.1.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"^7.0"
+    },
+    "autoload":{
+        "psr-4":{"arhan\\":"src/core"}
+    },
+    "autoload-dev":{
+        "psr-4": {"arhan\\tests\\":"tests/"}
+    }
+}
